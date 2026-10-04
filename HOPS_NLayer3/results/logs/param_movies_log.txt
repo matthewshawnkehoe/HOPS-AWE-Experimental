@@ -1,0 +1,8 @@
+vo2_heating: 31 frames computed in 1045 s
+saved /home/claude/HOPS_NLayer/figures/movies/movie_vo2_heating.mp4 (1062 s)
+gst_crystal: 26 frames computed in 413 s
+saved /home/claude/HOPS_NLayer/figures/movies/movie_gst_crystal.mp4 (429 s)
+ws2_angle: 22 frames computed in 2605 s
+saved /home/claude/HOPS_NLayer/figures/movies/movie_ws2_angle.mp4 (2630 s)
+sqib_eps: 9 frames computed in 231 s
+saved /home/claude/HOPS_NLayer/figures/movies/movie_sqib_eps.mp4 (238 s)

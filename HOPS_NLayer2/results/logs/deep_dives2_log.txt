@@ -1,0 +1,38 @@
+  tamm P = 0.560 done
+  tamm P = 0.570 done
+  tamm P = 0.580 done
+  tamm P = 0.590 done
+  tamm P = 0.600 done
+  tamm P = 0.610 done
+  tamm P = 0.620 done
+  tamm P = 0.630 done
+  tamm P = 0.640 done
+  tamm P = 0.650 done
+  tamm P = 0.660 done
+  tamm P = 0.670 done
+  tamm P = 0.680 done
+  tamm P = 0.690 done
+  tamm P = 0.700 done
+  tamm P = 0.710 done
+  tamm P = 0.720 done
+  tamm P = 0.730 done
+  tamm P = 0.740 done
+### Tamm plasmon x surface plasmon (tamm_ag, L = 8)
+* flat Tamm state at **0.6840 um** (TMM, R = 0.172); the Ag/air SPP (first grating order) crosses it at period **0.670 um**.
+* the period scans show the two dips **anticross** (figures/deep_dives/tamm_spp_anticrossing.png); minimum separation of the two dips over the scan: eps 0.05: 11.2 nm (P 0.65), eps 0.10: 7.3 nm (P 0.70), eps 0.15: 11.6 nm (P 0.70), eps 0.20: 17.6 nm (P 0.67).
+* at the crossing, R at the hybrid dip: eps 0.00: 0.174, eps 0.05: 0.121, eps 0.10: 0.017, eps 0.15: 0.056, eps 0.20: 0.242
+* (1329 s)
+
+  cavity p = 0 (L = 5): lambda_c 0.7000, FWHM 184.30 nm, Q 4; eps 0.00: 0.7002 T 0.958, eps 0.05: 0.6998 T 0.959, eps 0.10: 0.6998 T 0.960, eps 0.15: 0.6998 T 0.962, eps 0.20: 0.6995 T 0.965
+  cavity p = 1 (L = 9): lambda_c 0.7000, FWHM 40.00 nm, Q 17; eps 0.00: 0.7002 T 0.958, eps 0.05: 0.6998 T 0.959, eps 0.10: 0.6998 T 0.962, eps 0.15: 0.6998 T 0.967, eps 0.20: 0.6995 T 0.972
+  cavity p = 2 (L = 13): lambda_c 0.7000, FWHM 11.55 nm, Q 61; eps 0.00: 0.7002 T 0.958, eps 0.05: 0.6998 T 0.959, eps 0.10: 0.6998 T 0.962, eps 0.15: 0.6998 T 0.966, eps 0.20: 0.6998 T 0.972
+### Microcavity: Q vs mirror pairs, and the grating (L = 5, 9, 13)
+| p | L | lambda_c (um) | FWHM (nm) | Q | cavity peak at eps = 0 / 0.1 / 0.2 (lambda um, T) |
+|---|---|---|---|---|---|
+| 0 | 5 | 0.7000 | 184.30 | 4 | 0.7002, 0.958 / 0.6998, 0.960 / 0.6995, 0.965 |
+| 1 | 9 | 0.7000 | 40.00 | 17 | 0.7002, 0.958 / 0.6998, 0.962 / 0.6995, 0.972 |
+| 2 | 13 | 0.7000 | 11.55 | 61 | 0.7002, 0.958 / 0.6998, 0.962 / 0.6998, 0.972 |
+
+(1108 s)
+
+DONE

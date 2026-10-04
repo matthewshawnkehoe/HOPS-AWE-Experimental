@@ -1,0 +1,5 @@
+kretschmann: 6 windows in 4 s
+saved /home/claude/HOPS_NLayer/figures/movies/movie_kretschmann.mp4 (126 s)
+berreman: 6 windows in 4 s
+saved /home/claude/HOPS_NLayer/figures/movies/movie_berreman.mp4 (130 s)
+DONE

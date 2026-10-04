@@ -1,0 +1,171 @@
+VO2_f20      n 2.95+0.44i  film: R 0.21-0.46 A 0.25  bulk: R 0.22-0.29 A 0.31  (6 s)
+VO2_f10      n 3.03+0.41i  film: R 0.21-0.48 A 0.24  bulk: R 0.22-0.29 A 0.30  (6 s)
+VO2_f30      n 2.87+0.47i  film: R 0.22-0.45 A 0.26  bulk: R 0.20-0.28 A 0.33  (6 s)
+VO2_f40      n 2.79+0.50i  film: R 0.22-0.44 A 0.28  bulk: R 0.19-0.28 A 0.35  (6 s)
+VO2_f50      n 2.72+0.53i  film: R 0.22-0.43 A 0.29  bulk: R 0.18-0.28 A 0.36  (6 s)
+VO2_f60      n 2.64+0.56i  film: R 0.22-0.42 A 0.30  bulk: R 0.17-0.27 A 0.38  (6 s)
+VO2_f70      n 2.57+0.58i  film: R 0.20-0.42 A 0.31  bulk: R 0.16-0.27 A 0.39  (6 s)
+VO2_f80      n 2.49+0.61i  film: R 0.19-0.41 A 0.31  bulk: R 0.15-0.28 A 0.40  (6 s)
+VO2_f90      n 2.42+0.63i  film: R 0.18-0.40 A 0.32  bulk: R 0.15-0.31 A 0.41  (6 s)
+hBN_ip       n 2.20+0.00i  film: R 0.14-0.29 A 0.00  bulk: R 0.12-0.14 A 0.00  (6 s)
+Film minus bulk absorption vs Im n: Spearman rho = -0.17 (p = 2e-01).
+Materials whose grating resonance is DEEPER as a film (min R/R_flat lower by > 0.02): Ag, Mg, Ag_IR, VO2_hot, CdTe, TiO2, diamond, GaN, ZnS, SiC, VO2_f70, VO2_f80, VO2_f90.
+... SHALLOWER as a film: K, GaP.
+
+P = 3: |peak R - theory| max 1.4e-02; Spearman(contrast, width) = 0.79; median min R/R_flat in band 0.964
+
+Dispersion mode: exact ('exact': every frequency with its own n(lambda); 'window': indices frozen at each window centre, which left a ~1e-2 residual against the formula).  The stop-band width of a finite stack (P <= 3) differs from the P -> inf formula (it is only reached as P grows), and for P = 1 the lobe is so broad that it fills most of the 0.4 - 1.0 um range.
+Ge      on Au : peak A 0.999 at 0.626 um (85 % in the film), eps 0.2: 1.000  (4 s)
+Ge      on Ag : peak A 0.973 at 0.606 um (97 % in the film), eps 0.2: 0.970  (5 s)
+Ge      on Cu : peak A 1.000 at 0.626 um (80 % in the film), eps 0.2: 0.999  (4 s)
+Ge      on Al : peak A 0.675 at 0.400 um (91 % in the film), eps 0.2: 0.745  (5 s)
+Si      on Au : peak A 0.943 at 0.505 um (6 % in the film), eps 0.2: 0.951  (5 s)
+Si      on Ag : peak A 0.357 at 0.466 um (71 % in the film), eps 0.2: 0.945  (5 s)
+Si      on Al : peak A 0.912 at 0.413 um (52 % in the film), eps 0.2: 0.921  (5 s)
+Si      on Cu : peak A 0.999 at 0.489 um (6 % in the film), eps 0.2: 1.000  (5 s)
+GaAs    on Au : peak A 0.999 at 0.512 um (37 % in the film), eps 0.2: 1.000  (5 s)
+GaAs    on Ag : peak A 0.981 at 0.457 um (97 % in the film), eps 0.2: 0.985  (5 s)
+GaAs    on Al : peak A 0.820 at 0.439 um (85 % in the film), eps 0.2: 0.843  (4 s)
+GaAs    on Cu : peak A 0.976 at 0.482 um (33 % in the film), eps 0.2: 0.976  (5 s)
+InP     on Au : peak A 0.993 at 0.505 um (38 % in the film), eps 0.2: 0.992  (4 s)
+InP     on Ag : peak A 0.997 at 0.439 um (97 % in the film), eps 0.2: 0.998  (5 s)
+InP     on Al : peak A 0.801 at 0.413 um (85 % in the film), eps 0.2: 0.828  (5 s)
+InP     on Cu : peak A 0.947 at 0.463 um (41 % in the film), eps 0.2: 0.949  (5 s)
+CdTe    on Au : peak A 0.925 at 0.413 um (33 % in the film), eps 0.2: 0.932  (5 s)
+CdTe    on Ag : peak A 0.954 at 0.400 um (95 % in the film), eps 0.2: 0.953  (5 s)
+CdTe    on Al : peak A 0.501 at 0.400 um (73 % in the film), eps 0.2: 0.701  (5 s)
+CdTe    on Cu : peak A 0.928 at 0.405 um (39 % in the film), eps 0.2: 0.934  (5 s)
+MoS2    on Au : peak A 0.974 at 0.566 um (80 % in the film), eps 0.2: 0.975  (5 s)
+MoS2    on Ag : peak A 0.966 at 0.537 um (97 % in the film), eps 0.2: 0.966  (5 s)
+MoS2    on Al : peak A 0.712 at 0.505 um (83 % in the film), eps 0.2: 0.732  (5 s)
+MoS2    on Cu : peak A 0.930 at 0.626 um (84 % in the film), eps 0.2: 0.930  (5 s)
+MAPbI3  on Ag : peak A 0.610 at 0.400 um (93 % in the film), eps 0.2: 0.714  (4 s)
+MAPbI3  on Au : peak A 0.818 at 0.403 um (30 % in the film), eps 0.2: 0.843  (5 s)
+MAPbI3  on Al : peak A 0.281 at 0.400 um (66 % in the film), eps 0.2: 0.744  (4 s)
+MAPbI3  on Cu : peak A 0.793 at 0.400 um (33 % in the film), eps 0.2: 0.812  (5 s)
+Cr      on Au : peak A 0.592 at 0.519 um (82 % in the film), eps 0.2: 0.690  (5 s)
+Cr      on Ag : peak A 0.529 at 0.400 um (98 % in the film), eps 0.2: 0.668  (5 s)
+Cr      on Al : peak A 0.319 at 0.400 um (88 % in the film), eps 0.2: 0.681  (5 s)
+Cr      on Cu : peak A 0.557 at 0.570 um (79 % in the film), eps 0.2: 0.683  (5 s)
+Ti      on Au : peak A 0.573 at 0.495 um (70 % in the film), eps 0.2: 0.690  (5 s)
+Ti      on Ag : peak A 0.532 at 0.400 um (98 % in the film), eps 0.2: 0.671  (5 s)
+Ti      on Al : peak A 0.326 at 0.400 um (89 % in the film), eps 0.2: 0.680  (4 s)
+Ti      on Cu : peak A 0.532 at 0.400 um (68 % in the film), eps 0.2: 0.683  (4 s)
+W       on Au : peak A 0.383 at 0.495 um (77 % in the film), eps 0.2: 0.709  (4 s)
+W       on Ag : peak A 0.303 at 0.451 um (99 % in the film), eps 0.2: 0.735  (5 s)
+W       on Al : peak A 0.224 at 0.451 um (92 % in the film), eps 0.2: 0.828  (5 s)
+W       on Cu : peak A 0.341 at 0.495 um (76 % in the film), eps 0.2: 0.716  (5 s)
+Fe      on Au : peak A 0.637 at 0.505 um (74 % in the film), eps 0.2: 0.712  (5 s)
+Fe      on Ag : peak A 0.603 at 0.400 um (98 % in the film), eps 0.2: 0.696  (5 s)
+Fe      on Al : peak A 0.360 at 0.400 um (88 % in the film), eps 0.2: 0.668  (5 s)
+Fe      on Cu : peak A 0.588 at 0.400 um (67 % in the film), eps 0.2: 0.705  (5 s)
+Ni      on Au : peak A 0.552 at 0.400 um (57 % in the film), eps 0.2: 0.685  (5 s)
+Ni      on Ag : peak A 0.490 at 0.400 um (98 % in the film), eps 0.2: 0.651  (5 s)
+Ni      on Al : peak A 0.282 at 0.400 um (85 % in the film), eps 0.2: 0.703  (5 s)
+Ni      on Cu : peak A 0.534 at 0.400 um (60 % in the film), eps 0.2: 0.673  (5 s)
+Pt      on Au : peak A 0.425 at 0.400 um (50 % in the film), eps 0.2: 0.662  (5 s)
+Pt      on Ag : peak A 0.300 at 0.400 um (97 % in the film), eps 0.2: 0.773  (5 s)
+Pt      on Al : peak A 0.182 at 0.400 um (81 % in the film), eps 0.2: 0.852  (5 s)
+Pt      on Cu : peak A 0.402 at 0.400 um (53 % in the film), eps 0.2: 0.669  (5 s)
+TiN     on Au : peak A 0.707 at 0.400 um (35 % in the film), eps 0.2: 0.749  (5 s)
+TiN     on Ag : peak A 0.504 at 0.400 um (94 % in the film), eps 0.2: 0.614  (5 s)
+TiN     on Al : peak A 0.247 at 0.400 um (70 % in the film), eps 0.2: 0.670  (5 s)
+TiN     on Cu : peak A 0.676 at 0.400 um (38 % in the film), eps 0.2: 0.713  (5 s)
+10 nm absorbing film on a metal mirror (L = 3): air | film | mirror, conformal cos x, period 0.4 um, lambda 0.40 - 0.85 um, exact dispersion.
+
+| film / mirror | peak absorptance flat (lambda um) | share absorbed in the film | mean A 0.40-0.70 um | peak A at eps = 0.2 (lambda um) |
+|---|---|---|---|---|
+| Ge / Cu | 1.000 (0.626) | 80 % | 0.76 | 0.999 (0.626) |
+| Si / Cu | 0.999 (0.489) | 6 % | 0.67 | 1.000 (0.489) |
+| Ge / Au | 0.999 (0.626) | 85 % | 0.77 | 1.000 (0.621) |
+| GaAs / Au | 0.999 (0.512) | 37 % | 0.63 | 1.000 (0.512) |
+| InP / Ag | 0.997 (0.439) | 97 % | 0.51 | 0.998 (0.436) |
+| InP / Au | 0.993 (0.505) | 38 % | 0.67 | 0.992 (0.505) |
+| GaAs / Ag | 0.981 (0.457) | 97 % | 0.48 | 0.985 (0.457) |
+| GaAs / Cu | 0.976 (0.482) | 33 % | 0.68 | 0.976 (0.479) |
+Tamm Ag     : dip 0.6859 um R 0.180 (A_metal 0.076, T 0.744); eps 0.1: 0.6713 R 0.063  (13 s)
+Tamm Au     : dip 0.7051 um R 0.066 (A_metal 0.245, T 0.689); eps 0.1: 0.7057 R 0.129  (13 s)
+Tamm Al     : dip 0.7777 um R 0.858 (A_metal 0.141, T 0.001); eps 0.1: 0.6538 R 0.531  (13 s)
+Tamm Cu     : dip 0.7012 um R 0.124 (A_metal 0.311, T 0.565); eps 0.1: 0.6859 R 0.168  (13 s)
+Tamm AuAg50 : dip 0.6935 um R 0.235 (A_metal 0.337, T 0.428); eps 0.1: 0.6785 R 0.209  (13 s)
+Tamm Na     : dip 0.7524 um R 0.028 (A_metal 0.137, T 0.835); eps 0.1: 0.7524 R 0.014  (13 s)
+Tamm K      : dip 0.7777 um R 0.336 (A_metal 0.063, T 0.601); eps 0.1: 0.7777 R 0.294  (13 s)
+Tamm Mg     : dip 0.6677 um R 0.724 (A_metal 0.205, T 0.072); eps 0.1: 0.6607 R 0.419  (13 s)
+Tamm TiN    : dip 0.7736 um R 0.358 (A_metal 0.561, T 0.080); eps 0.1: 0.7736 R 0.350  (13 s)
+Tamm W      : dip 0.6499 um R 0.829 (A_metal 0.115, T 0.056); eps 0.1: 0.6572 R 0.332  (13 s)
+Tamm Cr     : dip 0.7777 um R 0.555 (A_metal 0.410, T 0.035); eps 0.1: 0.7777 R 0.546  (13 s)
+Tamm Ni     : dip 0.7442 um R 0.577 (A_metal 0.391, T 0.032); eps 0.1: 0.7361 R 0.567  (13 s)
+Tamm Pt     : dip 0.6538 um R 0.763 (A_metal 0.110, T 0.127); eps 0.1: 0.6572 R 0.352  (13 s)
+Tamm Pd     : dip 0.7283 um R 0.581 (A_metal 0.380, T 0.039); eps 0.1: 0.7206 R 0.569  (13 s)
+Tamm Ti     : dip 0.7777 um R 0.571 (A_metal 0.402, T 0.027); eps 0.1: 0.7777 R 0.563  (13 s)
+Tamm plasmons: air | metal 30 nm | TiO2 (0.6 quarter) / SiO2 / TiO2 / SiO2 / TiO2 | BK7 (L = 8), period 0.65 um, top two interfaces corrugated, exact dispersion.
+
+| metal | Tamm dip (um) | R at dip (flat) | absorbed in the metal | transmitted | dip at eps = 0.1 (um) / R |
+|---|---|---|---|---|---|
+| Na | 0.7524 | 0.028 | 0.137 | 0.835 | 0.7524 / 0.014 |
+| Au | 0.7051 | 0.066 | 0.245 | 0.689 | 0.7057 / 0.129 |
+| Cu | 0.7012 | 0.124 | 0.311 | 0.565 | 0.6859 / 0.168 |
+| Ag | 0.6859 | 0.180 | 0.076 | 0.744 | 0.6713 / 0.063 |
+| AuAg50 | 0.6935 | 0.235 | 0.337 | 0.428 | 0.6785 / 0.209 |
+| K | 0.7777 | 0.336 | 0.063 | 0.601 | 0.7777 / 0.294 |
+| TiN | 0.7736 | 0.358 | 0.561 | 0.080 | 0.7736 / 0.350 |
+| Cr | 0.7777 | 0.555 | 0.410 | 0.035 | 0.7777 / 0.546 |
+| Ti | 0.7777 | 0.571 | 0.402 | 0.027 | 0.7777 / 0.563 |
+| Ni | 0.7442 | 0.577 | 0.391 | 0.032 | 0.7361 / 0.567 |
+| Pd | 0.7283 | 0.581 | 0.380 | 0.039 | 0.7206 / 0.569 |
+| Mg | 0.6677 | 0.724 | 0.205 | 0.072 | 0.6607 / 0.419 |
+| Pt | 0.6538 | 0.763 | 0.110 | 0.127 | 0.6572 / 0.352 |
+| W | 0.6499 | 0.829 | 0.115 | 0.056 | 0.6572 / 0.332 |
+| Al | 0.7777 | 0.858 | 0.141 | 0.001 | 0.6538 / 0.531 |
+MIM Ag  / SiO2    : eps 0.12 peak A 0.993 at 0.530 um; flat 0.154 at 0.402  (9 s)
+MIM Ag  / MgF2    : eps 0.12 peak A 0.833 at 0.538 um; flat 0.119 at 0.402  (9 s)
+MIM Ag  / sapphire: eps 0.12 peak A 0.861 at 0.541 um; flat 0.534 at 0.410  (9 s)
+MIM Ag  / HfO2    : eps 0.12 peak A 0.898 at 0.545 um; flat 0.481 at 0.432  (9 s)
+MIM Ag  / Si3N4   : eps 0.12 peak A 0.942 at 0.549 um; flat 0.529 at 0.459  (9 s)
+MIM Ag  / TiO2    : eps 0.12 peak A 0.874 at 0.557 um; flat 0.679 at 0.557  (9 s)
+MIM Au  / MgF2    : eps 0.12 peak A 0.856 at 0.493 um; flat 0.859 at 0.493  (9 s)
+MIM Au  / SiO2    : eps 0.12 peak A 0.873 at 0.496 um; flat 0.876 at 0.496  (9 s)
+MIM Au  / sapphire: eps 0.12 peak A 0.929 at 0.517 um; flat 0.934 at 0.513  (9 s)
+MIM Au  / HfO2    : eps 0.12 peak A 0.957 at 0.523 um; flat 0.967 at 0.523  (9 s)
+MIM Au  / TiO2    : eps 0.12 peak A 0.993 at 0.611 um; flat 0.982 at 0.611  (9 s)
+MIM Au  / Si3N4   : eps 0.12 peak A 0.968 at 0.538 um; flat 0.983 at 0.538  (10 s)
+MIM Al  / MgF2    : eps 0.12 peak A 0.681 at 0.507 um; flat 0.159 at 0.837  (9 s)
+MIM Al  / SiO2    : eps 0.12 peak A 0.669 at 0.507 um; flat 0.159 at 0.837  (9 s)
+MIM Al  / sapphire: eps 0.12 peak A 0.684 at 0.507 um; flat 0.161 at 0.837  (9 s)
+MIM Al  / HfO2    : eps 0.12 peak A 0.663 at 0.507 um; flat 0.161 at 0.837  (8 s)
+MIM Al  / Si3N4   : eps 0.12 peak A 0.643 at 0.507 um; flat 0.162 at 0.837  (9 s)
+MIM Al  / TiO2    : eps 0.12 peak A 0.658 at 0.510 um; flat 0.254 at 0.471  (9 s)
+MIM Cu  / MgF2    : eps 0.12 peak A 0.741 at 0.402 um; flat 0.735 at 0.402  (9 s)
+MIM Cu  / SiO2    : eps 0.12 peak A 0.743 at 0.402 um; flat 0.738 at 0.402  (9 s)
+MIM Cu  / sapphire: eps 0.12 peak A 0.779 at 0.549 um; flat 0.726 at 0.453  (9 s)
+MIM Cu  / HfO2    : eps 0.12 peak A 0.802 at 0.557 um; flat 0.768 at 0.549  (8 s)
+MIM Cu  / Si3N4   : eps 0.12 peak A 0.835 at 0.571 um; flat 0.813 at 0.560  (9 s)
+MIM Cu  / TiO2    : eps 0.12 peak A 0.966 at 0.615 um; flat 0.999 at 0.615  (9 s)
+Metal-insulator-metal absorbers: air | metal 25 nm | spacer 60 nm | metal (L = 4), top grating, period 0.5 um, lambda 0.40 - 0.95 um, exact dispersion.
+
+| metal / spacer | n spacer (0.7 um) | peak A at eps = 0.12 (lambda um) | peak A flat (lambda um) |
+|---|---|---|---|
+| Au / TiO2 | 2.55 | 0.993 (0.611) | 0.982 (0.611) |
+| Ag / SiO2 | 1.46 | 0.993 (0.530) | 0.154 (0.402) |
+| Au / Si3N4 | 2.03 | 0.968 (0.538) | 0.983 (0.538) |
+| Cu / TiO2 | 2.55 | 0.966 (0.615) | 0.999 (0.615) |
+| Au / HfO2 | 1.89 | 0.957 (0.523) | 0.967 (0.523) |
+| Ag / Si3N4 | 2.03 | 0.942 (0.549) | 0.529 (0.459) |
+| Au / sapphire | 1.76 | 0.929 (0.517) | 0.934 (0.513) |
+| Ag / HfO2 | 1.89 | 0.898 (0.545) | 0.481 (0.432) |
+| Ag / TiO2 | 2.55 | 0.874 (0.557) | 0.679 (0.557) |
+| Au / SiO2 | 1.46 | 0.873 (0.496) | 0.876 (0.496) |
+| Ag / sapphire | 1.76 | 0.861 (0.541) | 0.534 (0.410) |
+| Au / MgF2 | 1.38 | 0.856 (0.493) | 0.859 (0.493) |
+| Cu / Si3N4 | 2.03 | 0.835 (0.571) | 0.813 (0.560) |
+| Ag / MgF2 | 1.38 | 0.833 (0.538) | 0.119 (0.402) |
+| Cu / HfO2 | 1.89 | 0.802 (0.557) | 0.768 (0.549) |
+| Cu / sapphire | 1.76 | 0.779 (0.549) | 0.726 (0.453) |
+| Cu / SiO2 | 1.46 | 0.743 (0.402) | 0.738 (0.402) |
+| Cu / MgF2 | 1.38 | 0.741 (0.402) | 0.735 (0.402) |
+| Al / sapphire | 1.76 | 0.684 (0.507) | 0.161 (0.837) |
+| Al / MgF2 | 1.38 | 0.681 (0.507) | 0.159 (0.837) |
+| Al / SiO2 | 1.46 | 0.669 (0.507) | 0.159 (0.837) |
+| Al / HfO2 | 1.89 | 0.663 (0.507) | 0.161 (0.837) |
+| Al / TiO2 | 2.55 | 0.658 (0.510) | 0.254 (0.471) |
+| Al / Si3N4 | 2.03 | 0.643 (0.507) | 0.162 (0.837) |

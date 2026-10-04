@@ -1,0 +1,17 @@
+tamm: 5 windows in 17 s
+saved /home/claude/HOPS_NLayer/figures/movies/movie_tamm.mp4 (186 s)
+kretschmann: 6 windows in 4 s
+saved /home/claude/HOPS_NLayer/figures/movies/movie_kretschmann.mp4 (126 s)
+ge_au: 9 windows in 6 s
+saved /home/claude/HOPS_NLayer/figures/movies/movie_ge_au.mp4 (138 s)
+vo2: 6 windows in 4 s
+saved /home/claude/HOPS_NLayer/figures/movies/movie_vo2.mp4 (130 s)
+perovskite: 9 windows in 12 s
+saved /home/claude/HOPS_NLayer/figures/movies/movie_perovskite.mp4 (148 s)
+cavity: 4 windows in 15 s
+saved /home/claude/HOPS_NLayer/figures/movies/movie_cavity.mp4 (190 s)
+berreman: 6 windows in 4 s
+saved /home/claude/HOPS_NLayer/figures/movies/movie_berreman.mp4 (130 s)
+lrspp: 5 windows in 4 s
+saved /home/claude/HOPS_NLayer/figures/movies/movie_lrspp.mp4 (121 s)
+DONE

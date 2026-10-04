@@ -1,0 +1,11 @@
+ws2_polariton: 3 windows in 30 s
+saved /home/claude/HOPS_NLayer/figures/movies/movie_ws2_polariton.mp4 (175 s)
+sqib: 6 windows in 7 s
+saved /home/claude/HOPS_NLayer/figures/movies/movie_sqib.mp4 (107 s)
+gst_mir: 10 windows in 6 s
+saved /home/claude/HOPS_NLayer/figures/movies/movie_gst_mir.mp4 (92 s)
+vdw_mirror: 7 windows in 15 s
+saved /home/claude/HOPS_NLayer/figures/movies/movie_vdw_mirror.mp4 (126 s)
+polymer_dbr: 9 windows in 33 s
+saved /home/claude/HOPS_NLayer/figures/movies/movie_polymer_dbr.mp4 (240 s)
+DONE

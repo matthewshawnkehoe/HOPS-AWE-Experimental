@@ -1,0 +1,40 @@
+### WS2 monolayer exciton-polaritons (L = 15)
+* exciton 2.031 eV (0.6105 um); flat cavity polaritons at normal incidence: 1.994 eV, 2.038 eV; coupled-oscillator fit over 0-40 deg: **2g = 21 meV**.
+* HOPS with the 1 um grating: normal-incidence dips at eps = 0: 2.037 eV (R 0.50), 1.993 eV (R 0.19); at eps = 0.2: 2.037 eV (R 0.38), 1.994 eV (R 0.09).  True error of the HOPS map 2.6e-06.
+(87 s)
+
+### Ge2Sb2Te5 phase-change stacks (L = 5 colour pixel, L = 3 mid-IR absorber)
+* colour pixels: the reflected colour changes with crystallisation for every ITO spacer (figures/deep_dives/db_gst_switching.png); the grating (eps 0.2) adds a small hue shift.
+* mid-IR: best switching contrast for GST 1000 nm on Au: R 0.99 (amorphous) -> 0.001 (crystalline) at 2.55 um.  HOPS (0.6 um, P 1.5 um): R_min crystalline flat 0.015, eps 0.2 0.025; amorphous 0.87 / 0.39.
+| GST (nm) | lambda (um) | R amorphous | R crystalline |
+|---|---|---|---|
+| 200 | 4.70 | 0.960 | 0.307 |
+| 300 | 2.43 | 0.990 | 0.201 |
+| 400 | 2.04 | 0.945 | 0.023 |
+| 500 | 3.74 | 0.990 | 0.074 |
+| 600 | 2.11 | 0.976 | 0.017 |
+| 700 | 5.10 | 0.990 | 0.017 |
+| 800 | 5.79 | 0.990 | 0.005 |
+| 900 | 2.90 | 0.921 | 0.001 |
+| 1000 | 2.55 | 0.990 | 0.001 |
+
+(150 s)
+
+  largeL P = 5 (L = 12): matrix 156, 15.3 s / window, log10|D| -3.5/-5.1, true err 6.6e-06/1.0e-10, R_flat max 0.246, flat vs TMM 1.5e-13
+  largeL P = 10 (L = 22): matrix 286, 7.0 s / window, log10|D| -2.5/-4.8, true err 1.2e-04/8.0e-08, R_flat max 0.499, flat vs TMM 1.3e-09
+  largeL P = 15 (L = 32): matrix 416, 11.8 s / window, log10|D| -1.4/-4.6, true err 1.9e-03/5.0e-06, R_flat max 0.703, flat vs TMM 2.8e-07
+  largeL P = 20 (L = 42): matrix 546, 18.9 s / window, log10|D| -0.8/-4.4, true err 2.7e-03/1.2e-04, R_flat max 0.835, flat vs TMM 3.1e-05
+  largeL P = 25 (L = 52): matrix 676, 19.2 s / window, log10|D| -0.7/-4.0, true err 1.2e-02/1.3e-03, R_flat max 0.912, flat vs TMM 1.5e-04
+  largeL P = 30 (L = 62): matrix 806, 36.5 s / window, log10|D| 0.5/-3.3, true err 1.6e-02/2.5e-03, R_flat max 0.954, flat vs TMM 1.4e-03
+### Very many layers: polymer Bragg mirrors, L = 12 ... 52 (HOPS/AWE, lossless)
+| pairs | L | matrix | s / window | log10\|D\| max / median | true error max / median | flat R vs TMM | max R_flat |
+|---|---|---|---|---|---|---|---|
+| 5 | 12 | 156 | 15.3 | -3.5 / -5.1 | 6.6e-06 / 1.0e-10 | 1.5e-13 | 0.246 |
+| 10 | 22 | 286 | 7.0 | -2.5 / -4.8 | 1.2e-04 / 8.0e-08 | 1.3e-09 | 0.499 |
+| 15 | 32 | 416 | 11.8 | -1.4 / -4.6 | 1.9e-03 / 5.0e-06 | 2.8e-07 | 0.703 |
+| 20 | 42 | 546 | 18.9 | -0.8 / -4.4 | 2.7e-03 / 1.2e-04 | 3.1e-05 | 0.835 |
+| 25 | 52 | 676 | 19.2 | -0.7 / -4.0 | 1.2e-02 / 1.3e-03 | 1.5e-04 | 0.912 |
+| 30 | 62 | 806 | 36.5 | 0.5 / -3.3 | 1.6e-02 / 2.5e-03 | 1.4e-03 | 0.954 |
+
+(399 s)
+

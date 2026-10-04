@@ -1,0 +1,3 @@
+ws2_angle: 22 frames computed in 3306 s
+saved /home/claude/HOPS_NLayer/figures/movies/movie_ws2_angle.mp4 (3331 s)
+DONE

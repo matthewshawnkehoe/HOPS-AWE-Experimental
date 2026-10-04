@@ -1,0 +1,5 @@
+gst_crystal: 26 frames computed in 454 s
+saved /home/claude/HOPS_NLayer/figures/movies/movie_gst_crystal.mp4 (471 s)
+vo2_heating: 31 frames computed in 673 s
+saved /home/claude/HOPS_NLayer/figures/movies/movie_vo2_heating.mp4 (691 s)
+DONE

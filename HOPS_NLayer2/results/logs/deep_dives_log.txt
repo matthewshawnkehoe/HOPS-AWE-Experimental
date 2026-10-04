@@ -1,0 +1,143 @@
+  tamm P = 0.560: dips 0.6023 (0.71), 0.6847 (0.24)
+  tamm P = 0.575: dips 0.6119 (0.62), 0.6848 (0.25)
+  tamm P = 0.590: dips 0.6229 (0.51), 0.6853 (0.25)
+  tamm P = 0.605: dips 0.6347 (0.38), 0.6860 (0.26)
+  tamm P = 0.620: dips 0.6472 (0.25), 0.6868 (0.27)
+  tamm P = 0.635: dips 0.6600 (0.11), 0.6876 (0.29)
+  tamm P = 0.650: dips 0.6726 (0.03), 0.6883 (0.33)
+  tamm P = 0.665: dips 0.6028 (0.90), 0.6843 (0.01)
+  tamm P = 0.680: dips 0.6052 (0.89), 0.6945 (0.09)
+  tamm P = 0.695: dips 0.6955 (0.23), 0.7124 (0.31)
+  tamm P = 0.710: dips 0.6933 (0.30), 0.7280 (0.34)
+  tamm P = 0.725: dips 0.6942 (0.31), 0.7429 (0.31)
+  tamm P = 0.740: dips 0.6952 (0.33), 0.7572 (0.30)
+### Tamm plasmon x surface plasmon (tamm_ag, L = 8)
+* flat Tamm state at **0.6840 um** (TMM, R = 0.172); the Ag/air SPP (first order) crosses it at period **0.665 um**.
+* period scan at eps = 0.1: two dips that **anticross** (figures/deep_dives/tamm_spp_anticrossing.png).
+* at the crossing the splitting grows with the grating depth: eps 0.1: 81.5 nm, eps 0.15: 52.8 nm, eps 0.175: 16.5 nm, eps 0.2: 19.7 nm.
+* (956 s)
+
+  lrspp t = 8 nm: dips 0.7295 (R 0.25, fwhm 2.8 nm)  predicted LR (0.7283897699121218, 5.177695758190474e-06), SR (1.0631227924808404, 0.011857886398603086)
+  lrspp t = 12 nm: dips 0.7313 (R 0.46, fwhm 24.5 nm), 0.9428 (R 0.54, fwhm 9.3 nm)  predicted LR (0.7296210209641156, 1.2719036259713918e-05), SR (0.9435822457791846, 0.009021137983375145)
+  lrspp t = 16 nm: dips 0.7333 (R 0.60, fwhm 153.1 nm), 0.8804 (R 0.60, fwhm 8.1 nm)  predicted LR (0.7312229319217727, 2.487008391330447e-05), SR (0.8808835662536199, 0.00699513039253448)
+  lrspp t = 20 nm: dips 0.7351 (R 0.69, fwhm 115.4 nm), 0.8447 (R 0.62, fwhm 6.0 nm)  predicted LR (0.7330957460094477, 4.2493947940663846e-05), SR (0.8450675805151986, 0.005628390191644194)
+  lrspp t = 30 nm: dips 0.7385 (R 0.77, fwhm 3.7 nm), 0.7990 (R 0.61, fwhm 3.6 nm)  predicted LR (0.7383054779679541, 0.00011177725746446081), SR (0.7992530057056112, 0.00323322086715652)
+  lrspp t = 40 nm: dips 0.7436 (R 0.36, fwhm 2.0 nm), 0.7797 (R 0.70, fwhm 4.6 nm)  predicted LR (0.7432849836024682, 0.0002083890065082553), SR (0.7795022630816714, 0.0020750346151144935)
+  lrspp t = 60 nm: dips 0.7510 (R 0.66, fwhm 2.2 nm), 0.7644 (R 0.45, fwhm 2.3 nm)  predicted LR (0.7504048266757084, 0.00041088830177107486), SR (0.7644768084287897, 0.001221721049524352)
+### Long- and short-range surface plasmons (silica | Ag | silica, L = 3)
+| Ag (nm) | HOPS dips at eps = 0.05 | flat-film mode solver: lambda = P Re n_eff |
+|---|---|---|
+| 8 | 0.7295 um (R 0.25, FWHM 2.8 nm) | LR 0.7284, SR 1.0631 |
+| 12 | 0.7313 um (R 0.46, FWHM 24.5 nm); 0.9428 um (R 0.54, FWHM 9.3 nm) | LR 0.7296, SR 0.9436 |
+| 16 | 0.7333 um (R 0.60, FWHM 153.1 nm); 0.8804 um (R 0.60, FWHM 8.1 nm) | LR 0.7312, SR 0.8809 |
+| 20 | 0.7351 um (R 0.69, FWHM 115.4 nm); 0.8447 um (R 0.62, FWHM 6.0 nm) | LR 0.7331, SR 0.8451 |
+| 30 | 0.7385 um (R 0.77, FWHM 3.7 nm); 0.7990 um (R 0.61, FWHM 3.6 nm) | LR 0.7383, SR 0.7993 |
+| 40 | 0.7436 um (R 0.36, FWHM 2.0 nm); 0.7797 um (R 0.70, FWHM 4.6 nm) | LR 0.7433, SR 0.7795 |
+| 60 | 0.7510 um (R 0.66, FWHM 2.2 nm); 0.7644 um (R 0.45, FWHM 2.3 nm) | LR 0.7504, SR 0.7645 |
+
+(194 s)
+
+  sensor Au 50 nm: {'flat': {'lam': 0.7288, 'R': 0.0085, 'fwhm': 0.0566, 'S': 5280.6029, 'FOM': 93.3515}, 'eps0.1': {'lam': 0.7317, 'R': 0.0168, 'fwhm': 0.0595, 'S': 5321.3259, 'FOM': 89.488}}
+  sensor Ag 50 nm: {'flat': {'lam': 0.6235, 'R': 0.0433, 'fwhm': 0.0387, 'S': 5360.4749, 'FOM': 138.6555}, 'eps0.1': {'lam': 0.6271, 'R': 0.0195, 'fwhm': 0.0448, 'S': 5394.5024, 'FOM': 120.3065}}
+  sensor Cu 50 nm: {'flat': {'lam': 0.7167, 'R': 0.0286, 'fwhm': 0.0621, 'S': 5149.6812, 'FOM': 82.9471}, 'eps0.1': {'lam': 0.7196, 'R': 0.0679, 'fwhm': 0.0583, 'S': 5247.3135, 'FOM': 89.9471}}
+  sensor Al 20 nm: {'flat': {'lam': 0.885, 'R': 0.2441, 'fwhm': 0.1127, 'S': 75.4798, 'FOM': 0.6699}, 'eps0.1': {'lam': 0.8851, 'R': 0.2475, 'fwhm': 0.1113, 'S': 78.3364, 'FOM': 0.7041}}
+  sensor Cr 2 nm + Au 48 nm: {'flat': {'lam': 0.7309, 'R': 0.0118, 'fwhm': 0.0621, 'S': 5301.5634, 'FOM': 85.3917}, 'eps0.1': {'lam': 0.7338, 'R': 0.0152, 'fwhm': 0.0641, 'S': 5345.8802, 'FOM': 83.3876}}
+  sensor Ti 2 nm + Au 48 nm: {'flat': {'lam': 0.731, 'R': 0.0091, 'fwhm': 0.0629, 'S': 5304.2014, 'FOM': 84.2914}, 'eps0.1': {'lam': 0.7339, 'R': 0.0148, 'fwhm': 0.0649, 'S': 5349.5149, 'FOM': 82.3954}}
+  sensor Au 50 nm + protein 10 nm: {'flat': {'lam': 0.7658, 'R': 0.0051, 'fwhm': 0.0594, 'S': 4879.442, 'FOM': 82.1561}, 'eps0.1': {'lam': 0.7688, 'R': 0.0175, 'fwhm': 0.0621, 'S': 4916.6217, 'FOM': 79.1347}}
+### Grating-assisted Kretschmann sensor (BK7 prism, 68 deg, TM; analyte 1.333 -> 1.343)
+| stack | flat: lambda_res (um) / R_min / FWHM (nm) / S (nm/RIU) / FOM | grating eps = 0.1: same |
+|---|---|---|
+| Au 50 nm | 0.7288 / 0.009 / 56.6 / 5281 / 93.4 | 0.7317 / 0.017 / 59.5 / 5321 / 89.5 |
+| Ag 50 nm | 0.6235 / 0.043 / 38.7 / 5360 / 138.7 | 0.6271 / 0.019 / 44.8 / 5395 / 120.3 |
+| Cu 50 nm | 0.7167 / 0.029 / 62.1 / 5150 / 82.9 | 0.7196 / 0.068 / 58.3 / 5247 / 89.9 |
+| Al 20 nm | 0.8850 / 0.244 / 112.7 / 75 / 0.7 | 0.8851 / 0.248 / 111.3 / 78 / 0.7 |
+| Cr 2 nm + Au 48 nm | 0.7309 / 0.012 / 62.1 / 5302 / 85.4 | 0.7338 / 0.015 / 64.1 / 5346 / 83.4 |
+| Ti 2 nm + Au 48 nm | 0.7310 / 0.009 / 62.9 / 5304 / 84.3 | 0.7339 / 0.015 / 64.9 / 5350 / 82.4 |
+| Au 50 nm + protein 10 nm | 0.7658 / 0.005 / 59.4 / 4879 / 82.2 | 0.7688 / 0.018 / 62.1 / 4917 / 79.1 |
+
+(573 s)
+
+  vo2 f = 0.0: max A flat 0.926 at 9.98 um, eps 0.2: 0.931 at 9.98 um
+  vo2 f = 0.1: max A flat 0.873 at 10.03 um, eps 0.2: 0.881 at 10.03 um
+  vo2 f = 0.2: max A flat 0.831 at 11.69 um, eps 0.2: 0.832 at 11.69 um
+  vo2 f = 0.3: max A flat 0.995 at 12.14 um, eps 0.2: 0.995 at 12.14 um
+  vo2 f = 0.4: max A flat 0.941 at 12.45 um, eps 0.2: 0.945 at 12.39 um
+  vo2 f = 0.5: max A flat 0.787 at 12.20 um, eps 0.2: 0.797 at 12.20 um
+  vo2 f = 0.6: max A flat 0.647 at 11.75 um, eps 0.2: 0.681 at 8.01 um
+  vo2 f = 0.7: max A flat 0.541 at 11.63 um, eps 0.2: 0.689 at 8.01 um
+  vo2 f = 0.8: max A flat 0.462 at 11.50 um, eps 0.2: 0.705 at 8.01 um
+  vo2 f = 0.9: max A flat 0.402 at 11.38 um, eps 0.2: 0.724 at 8.01 um
+  vo2 f = 1.0: max A flat 0.356 at 11.38 um, eps 0.2: 0.745 at 8.01 um
+### VO2 on sapphire through the phase transition (L = 3, Bruggeman mix)
+| metallic fraction | peak A flat (lambda um) | peak A at eps = 0.2 (lambda um) |
+|---|---|---|
+| 0 % | 0.926 (9.98) | 0.931 (9.98) |
+| 10 % | 0.873 (10.03) | 0.881 (10.03) |
+| 20 % | 0.831 (11.69) | 0.832 (11.69) |
+| 30 % | 0.995 (12.14) | 0.995 (12.14) |
+| 40 % | 0.941 (12.45) | 0.945 (12.39) |
+| 50 % | 0.787 (12.20) | 0.797 (12.20) |
+| 60 % | 0.647 (11.75) | 0.681 (8.01) |
+| 70 % | 0.541 (11.63) | 0.689 (8.01) |
+| 80 % | 0.462 (11.50) | 0.705 (8.01) |
+| 90 % | 0.402 (11.38) | 0.724 (8.01) |
+| 100 % | 0.356 (11.38) | 0.745 (8.01) |
+
+Maximum absorption 0.995 at 12.14 um for 30 % metallic domains. (283 s)
+
+  ge_au t = 0 nm: max A 0.598 at 0.470 um
+  ge_au t = 5 nm: max A 0.817 at 0.543 um
+  ge_au t = 7 nm: max A 0.938 at 0.597 um
+  ge_au t = 10 nm: max A 1.000 at 0.624 um
+  ge_au t = 15 nm: max A 0.946 at 0.685 um
+  ge_au t = 20 nm: max A 0.879 at 0.754 um
+  ge_au t = 25 nm: max A 0.827 at 0.825 um
+### Ultrathin Ge on Au: absorption and colour (L = 3)
+| Ge (nm) | peak absorptance flat (lambda um) | peak A at eps = 0.2 |
+|---|---|---|
+| 0 | 0.598 (0.470) | 0.727 |
+| 5 | 0.817 (0.543) | 0.842 |
+| 7 | 0.938 (0.597) | 0.939 |
+| 10 | 1.000 (0.624) | 1.000 |
+| 15 | 0.946 (0.685) | 0.953 |
+| 20 | 0.879 (0.754) | 0.892 |
+| 25 | 0.827 (0.825) | 0.846 |
+
+(186 s)
+
+Traceback (most recent call last):
+  File "/home/claude/HOPS_NLayer/deep_dives_nlayer.py", line 548, in <module>
+    STUDIES[st]()
+  File "/home/claude/HOPS_NLayer/deep_dives_nlayer.py", line 431, in study_cavity
+    s = run_spec(key, lc - win, lc + win, n_cols=40, eps_max=0.2, n_eps=5, max_delta=0.01)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/HOPS_NLayer/deep_dives_nlayer.py", line 64, in run_spec
+    lam = np.concatenate([r['lam'] for r in res]) * sc_
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: need at least one array to concatenate
+cavity: FAILED ValueError('need at least one array to concatenate')
+  solar perovskite_cell: active mean A vs eps 0.771, 0.772, 0.773, 0.776, 0.779
+  solar si_cell: active mean A vs eps 0.101, 0.106, 0.118, 0.135, 0.152
+### Thin-film solar cells: where the light is absorbed (per-layer absorption from the volume series)
+* **perovskite_cell**: active-layer absorptance (spectral mean) eps 0.00: 0.771, eps 0.05: 0.772, eps 0.10: 0.773, eps 0.15: 0.776, eps 0.20: 0.779; parasitic ITO: 0.026 -> 0.026; Ag: 0.003 -> 0.003
+* **si_cell**: active-layer absorptance (spectral mean) eps 0.00: 0.101, eps 0.05: 0.106, eps 0.10: 0.118, eps 0.15: 0.135, eps 0.20: 0.152; parasitic Ag: 0.015 -> 0.024
+(117 s)
+
+  contrast n_H = 1.6: log10|D| max -3.4 median -9.7, true err 5.6e-06 / 6.3e-11, R_flat max 0.217
+  contrast n_H = 2.0: log10|D| max -2.1 median -8.3, true err 2.1e-04 / 4.6e-09, R_flat max 0.682
+  contrast n_H = 2.4: log10|D| max -0.6 median -7.5, true err 2.3e-02 / 4.1e-08, R_flat max 0.880
+  contrast n_H = 3.0: log10|D| max 0.3 median -6.6, true err 2.8e-01 / 3.7e-07, R_flat max 0.967
+  contrast n_H = 3.5: log10|D| max 0.4 median -6.2, true err 2.7e-01 / 1.1e-06, R_flat max 0.987
+  contrast n_H = 4.0: log10|D| max 1.0 median -5.7, true err 8.7e-01 / 3.8e-06, R_flat max 0.994
+### HOPS/AWE accuracy vs index contrast (lossless (H L)^3 mirrors, L = 8)
+| n_H | contrast | max R_flat | log10\|D\| max / median | true error max / median |
+|---|---|---|---|---|
+| 1.6 | 0.049 | 0.217 | -3.4 / -9.7 | 5.6e-06 / 6.3e-11 |
+| 2.0 | 0.159 | 0.682 | -2.1 / -8.3 | 2.1e-04 / 4.6e-09 |
+| 2.4 | 0.247 | 0.880 | -0.6 / -7.5 | 2.3e-02 / 4.1e-08 |
+| 3.0 | 0.348 | 0.967 | 0.3 / -6.6 | 2.8e-01 / 3.7e-07 |
+| 3.5 | 0.414 | 0.987 | 0.4 / -6.2 | 2.7e-01 / 1.1e-06 |
+| 4.0 | 0.468 | 0.994 | 1.0 / -5.7 | 8.7e-01 / 3.8e-06 |
+
+(247 s)
+

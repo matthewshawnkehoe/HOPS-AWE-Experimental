@@ -1,0 +1,464 @@
+{
+ "VIS 0.6 um": {
+  "n_materials": 152,
+  "n_pairs": 10544,
+  "top": [
+   {
+    "H": "AlAs-GaAs (Aspnes-70.0)",
+    "L": "NaF (Li)",
+    "nH": 3.404172881355932,
+    "nL": 1.3250785040485693,
+    "H_data": "other/semiconductor alloys/AlAs-GaAs/nk/Aspnes-70.0.yml",
+    "L_data": "main/NaF/nk/Li.yml",
+    "R3": 0.9908880572764244,
+    "width": 0.5795537743204696
+   },
+   {
+    "H": "GaP (Adachi)",
+    "L": "NaF (Li)",
+    "nH": 3.3924739789964993,
+    "nL": 1.3250785040485693,
+    "H_data": "main/GaP/nk/Adachi.yml",
+    "L_data": "main/NaF/nk/Li.yml",
+    "R3": 0.9906987763310438,
+    "width": 0.5775845766267874
+   },
+   {
+    "H": "AlAs-GaAs (Aspnes-70.0)",
+    "L": "KF (Li)",
+    "nH": 3.404172881355932,
+    "nL": 1.3621365536435999,
+    "H_data": "other/semiconductor alloys/AlAs-GaAs/nk/Aspnes-70.0.yml",
+    "L_data": "main/KF/nk/Li.yml",
+    "R3": 0.9892569311119744,
+    "width": 0.5637344449763779
+   },
+   {
+    "H": "GaP (Adachi)",
+    "L": "KF (Li)",
+    "nH": 3.3924739789964993,
+    "nL": 1.3621365536435999,
+    "H_data": "main/GaP/nk/Adachi.yml",
+    "L_data": "main/KF/nk/Li.yml",
+    "R3": 0.9890339546180311,
+    "width": 0.5617534434165586
+   },
+   {
+    "H": "AlAs-GaAs (Aspnes-70.0)",
+    "L": "MgF2 (Dodge-o)",
+    "nH": 3.404172881355932,
+    "nL": 1.3775198794254102,
+    "H_data": "other/semiconductor alloys/AlAs-GaAs/nk/Aspnes-70.0.yml",
+    "L_data": "main/MgF2/nk/Dodge-o.yml",
+    "R3": 0.9885124161274516,
+    "width": 0.5572666933521131
+   },
+   {
+    "H": "GaP (Adachi)",
+    "L": "MgF2 (Dodge-o)",
+    "nH": 3.3924739789964993,
+    "nL": 1.3775198794254102,
+    "H_data": "main/GaP/nk/Adachi.yml",
+    "L_data": "main/MgF2/nk/Dodge-o.yml",
+    "R3": 0.9882740785459087,
+    "width": 0.555280953835038
+   },
+   {
+    "H": "AlAs-GaAs (Aspnes-70.0)",
+    "L": "LiF (Li)",
+    "nH": 3.404172881355932,
+    "nL": 1.391889904765071,
+    "H_data": "other/semiconductor alloys/AlAs-GaAs/nk/Aspnes-70.0.yml",
+    "L_data": "main/LiF/nk/Li.yml",
+    "R3": 0.9877789071066977,
+    "width": 0.5512761882624443
+   },
+   {
+    "H": "AlAs-GaAs (Aspnes-70.0)",
+    "L": "LiCaAlF6 (Woods-o)",
+    "nH": 3.404172881355932,
+    "nL": 1.3920813715086333,
+    "H_data": "other/semiconductor alloys/AlAs-GaAs/nk/Aspnes-70.0.yml",
+    "L_data": "main/LiCaAlF6/nk/Woods-o.yml",
+    "R3": 0.9877688788189082,
+    "width": 0.5511967008484812
+   },
+   {
+    "H": "AlAs-GaAs (Aspnes-70.0)",
+    "L": "H2O-C3H5_OH_3 (Gupta-50)",
+    "nH": 3.404172881355932,
+    "nL": 1.3945123437160494,
+    "H_data": "other/semiconductor alloys/AlAs-GaAs/nk/Aspnes-70.0.yml",
+    "L_data": "other/mixed organic-inorganic/H2O-C3H5(OH)3/nk/Gupta-50.yml",
+    "R3": 0.9876409616726108,
+    "width": 0.5501882333409379
+   },
+   {
+    "H": "GaP (Adachi)",
+    "L": "LiF (Li)",
+    "nH": 3.3924739789964993,
+    "nL": 1.391889904765071,
+    "H_data": "main/GaP/nk/Adachi.yml",
+    "L_data": "main/LiF/nk/Li.yml",
+    "R3": 0.9875254471630569,
+    "width": 0.5492861061507729
+   },
+   {
+    "H": "GaP (Adachi)",
+    "L": "LiCaAlF6 (Woods-o)",
+    "nH": 3.3924739789964993,
+    "nL": 1.3920813715086333,
+    "H_data": "main/GaP/nk/Adachi.yml",
+    "L_data": "main/LiCaAlF6/nk/Woods-o.yml",
+    "R3": 0.9875152122075681,
+    "width": 0.5492065614116122
+   },
+   {
+    "H": "AlAs-GaAs (Aspnes-70.0)",
+    "L": "RbF (Li)",
+    "nH": 3.404172881355932,
+    "nL": 1.397662690003012,
+    "H_data": "other/semiconductor alloys/AlAs-GaAs/nk/Aspnes-70.0.yml",
+    "L_data": "main/RbF/nk/Li.yml",
+    "R3": 0.9874735491646812,
+    "width": 0.5488834055163533
+   },
+   {
+    "H": "GaP (Adachi)",
+    "L": "H2O-C3H5_OH_3 (Gupta-50)",
+    "nH": 3.3924739789964993,
+    "nL": 1.3945123437160494,
+    "H_data": "main/GaP/nk/Adachi.yml",
+    "L_data": "other/mixed organic-inorganic/H2O-C3H5(OH)3/nk/Gupta-50.yml",
+    "R3": 0.9873846590738702,
+    "width": 0.548197367285832
+   },
+   {
+    "H": "GaP (Adachi)",
+    "L": "RbF (Li)",
+    "nH": 3.3924739789964993,
+    "nL": 1.397662690003012,
+    "H_data": "main/GaP/nk/Adachi.yml",
+    "L_data": "main/RbF/nk/Li.yml",
+    "R3": 0.9872137972294939,
+    "width": 0.5468916011657877
+   },
+   {
+    "H": "PbI2 (Frisenda)",
+    "L": "NaF (Li)",
+    "nH": 3.208577789786544,
+    "nL": 1.3250785040485693,
+    "H_data": "main/PbI2/nk/Frisenda.yml",
+    "L_data": "main/NaF/nk/Li.yml",
+    "R3": 0.9870293933895682,
+    "width": 0.5455009798717312
+   }
+  ],
+  "top_n": [
+   [
+    "AlAs-GaAs",
+    "Aspnes-70.0",
+    3.404172881355932
+   ],
+   [
+    "GaP",
+    "Adachi",
+    3.3924739789964993
+   ],
+   [
+    "PbI2",
+    "Frisenda",
+    3.208577789786544
+   ],
+   [
+    "AlAs",
+    "Fern",
+    3.14490958651994
+   ],
+   [
+    "BP",
+    "Wettling",
+    3.072087912087912
+   ],
+   [
+    "ZnTe",
+    "Marple",
+    3.039842463325174
+   ],
+   [
+    "BiFeO3",
+    "Kumar",
+    3.0193911392405064
+   ],
+   [
+    "Bi4Ti3O12",
+    "Simon-b",
+    2.7663014363459184
+   ],
+   [
+    "CuGaS2",
+    "Boyd-120-o",
+    2.7100370864599537
+   ],
+   [
+    "GaS",
+    "Zotev-o",
+    2.69023
+   ],
+   [
+    "PbTiO3",
+    "Singh-o",
+    2.6896003208412664
+   ],
+   [
+    "SiC",
+    "Shaffer",
+    2.6488
+   ]
+  ]
+ },
+ "telecom 1.55 um": {
+  "n_materials": 136,
+  "n_pairs": 8531,
+  "top": [
+   {
+    "H": "Si (Franta)",
+    "L": "NaF (Li)",
+    "nH": 3.6211461300249517,
+    "nL": 1.3193925064235672,
+    "H_data": "main/Si/nk/Franta.yml",
+    "L_data": "main/NaF/nk/Li.yml",
+    "R3": 0.9935396757116116,
+    "width": 0.6170648044900233
+   },
+   {
+    "H": "Si (Franta)",
+    "L": "KF (Li)",
+    "nH": 3.6211461300249517,
+    "nL": 1.3568832822754051,
+    "H_data": "main/Si/nk/Franta.yml",
+    "L_data": "main/KF/nk/Li.yml",
+    "R3": 0.9923615015967854,
+    "width": 0.6012302914871719
+   },
+   {
+    "H": "Si (Franta)",
+    "L": "MgF2 (Li-o)",
+    "nH": 3.6211461300249517,
+    "nL": 1.3709169450191108,
+    "H_data": "main/Si/nk/Franta.yml",
+    "L_data": "main/MgF2/nk/Li-o.yml",
+    "R3": 0.99187704430404,
+    "width": 0.5953898462899392
+   },
+   {
+    "H": "Si (Franta)",
+    "L": "LiF (Li)",
+    "nH": 3.6211461300249517,
+    "nL": 1.3827461346240153,
+    "H_data": "main/Si/nk/Franta.yml",
+    "L_data": "main/LiF/nk/Li.yml",
+    "R3": 0.9914491667230309,
+    "width": 0.5905027038721183
+   },
+   {
+    "H": "Si (Franta)",
+    "L": "RbF (Li)",
+    "nH": 3.6211461300249517,
+    "nL": 1.389501856875864,
+    "H_data": "main/Si/nk/Franta.yml",
+    "L_data": "main/RbF/nk/Li.yml",
+    "R3": 0.9911965420799668,
+    "width": 0.5877261674440871
+   },
+   {
+    "H": "Si (Franta)",
+    "L": "polydimethylsiloxane (Gupta)",
+    "nH": 3.6211461300249517,
+    "nL": 1.403938,
+    "H_data": "main/Si/nk/Franta.yml",
+    "L_data": "organic/(C2H6OSi)n - polydimethylsiloxane/nk/Gupta.yml",
+    "R3": 0.99063595455325,
+    "width": 0.5818280572617373
+   },
+   {
+    "H": "GaAs (Kachare)",
+    "L": "NaF (Li)",
+    "nH": 3.398857511858922,
+    "nL": 1.3193925064235672,
+    "H_data": "main/GaAs/nk/Kachare.yml",
+    "L_data": "main/NaF/nk/Li.yml",
+    "R3": 0.9905662723508238,
+    "width": 0.5811186918469841
+   },
+   {
+    "H": "AlAs-GaAs (Papatryfonos-0)",
+    "L": "NaF (Li)",
+    "nH": 3.377924134373427,
+    "nL": 1.3193925064235672,
+    "H_data": "other/semiconductor alloys/AlAs-GaAs/nk/Papatryfonos-0.yml",
+    "L_data": "main/NaF/nk/Li.yml",
+    "R3": 0.9902117693010252,
+    "width": 0.5775858439011887
+   },
+   {
+    "H": "Si (Franta)",
+    "L": "CaF2 (Zheng-21C)",
+    "nH": 3.6211461300249517,
+    "nL": 1.4261104340072963,
+    "H_data": "main/Si/nk/Franta.yml",
+    "L_data": "main/CaF2/nk/Zheng-21C.yml",
+    "R3": 0.9897176120538854,
+    "width": 0.57286059723564
+   },
+   {
+    "H": "Si (Franta)",
+    "L": "SrF2 (Feldman)",
+    "nH": 3.6211461300249517,
+    "nL": 1.430773498606966,
+    "H_data": "main/Si/nk/Franta.yml",
+    "L_data": "main/SrF2/nk/Feldman.yml",
+    "R3": 0.9895152980711673,
+    "width": 0.5709885467687973
+   },
+   {
+    "H": "Si (Franta)",
+    "L": "fused_silica (Malitson)",
+    "nH": 3.6211461300249517,
+    "nL": 1.444023621703261,
+    "H_data": "main/Si/nk/Franta.yml",
+    "L_data": "main/SiO2/nk/Malitson.yml",
+    "R3": 0.988922372760961,
+    "width": 0.5656950737758085
+   },
+   {
+    "H": "Si (Franta)",
+    "L": "YLiF4 (Barnes-o)",
+    "nH": 3.6211461300249517,
+    "nL": 1.445189874141164,
+    "H_data": "main/Si/nk/Franta.yml",
+    "L_data": "main/YLiF4/nk/Barnes-o.yml",
+    "R3": 0.9888688839947514,
+    "width": 0.5652309787609382
+   },
+   {
+    "H": "GaAs (Kachare)",
+    "L": "KF (Li)",
+    "nH": 3.398857511858922,
+    "nL": 1.3568832822754051,
+    "H_data": "main/GaAs/nk/Kachare.yml",
+    "L_data": "main/KF/nk/Li.yml",
+    "R3": 0.9888488829307169,
+    "width": 0.5650579884701511
+   },
+   {
+    "H": "AlAs-GaAs (Papatryfonos-0)",
+    "L": "KF (Li)",
+    "nH": 3.377924134373427,
+    "nL": 1.3568832822754051,
+    "H_data": "other/semiconductor alloys/AlAs-GaAs/nk/Papatryfonos-0.yml",
+    "L_data": "main/KF/nk/Li.yml",
+    "R3": 0.9884302204708766,
+    "width": 0.5615036045743981
+   },
+   {
+    "H": "CdGeP2 (Boyd-118-o)",
+    "L": "NaF (Li)",
+    "nH": 3.2719230902995844,
+    "nL": 1.3193925064235672,
+    "H_data": "main/CdGeP2/nk/Boyd-118-o.yml",
+    "L_data": "main/NaF/nk/Li.yml",
+    "R3": 0.9881604297940952,
+    "width": 0.55927786187145
+   }
+  ],
+  "top_n": [
+   [
+    "Si",
+    "Franta",
+    3.6211461300249517
+   ],
+   [
+    "GaAs",
+    "Kachare",
+    3.398857511858922
+   ],
+   [
+    "AlAs-GaAs",
+    "Papatryfonos-0",
+    3.377924134373427
+   ],
+   [
+    "CdGeP2",
+    "Boyd-118-o",
+    3.2719230902995844
+   ],
+   [
+    "ZnSiAs2",
+    "Boyd-o",
+    3.263428369125509
+   ],
+   [
+    "ZnGeP2",
+    "Boyd-70C-o",
+    3.1774113634865038
+   ],
+   [
+    "InP",
+    "Pettit",
+    3.1649287643999955
+   ],
+   [
+    "GaP",
+    "Adachi",
+    3.1279850000000002
+   ],
+   [
+    "GaP-InP",
+    "Ferrini-IR",
+    3.105208110484887
+   ],
+   [
+    "AgGaSe2",
+    "Boyd-o",
+    2.9792356184775803
+   ],
+   [
+    "AlAs",
+    "Fern",
+    2.8923659396437973
+   ],
+   [
+    "Ag3AsS3",
+    "Hulme-o",
+    2.7718961421692865
+   ]
+  ]
+ },
+ "hops": [
+  {
+   "pair": "Si (Franta) / NaF (Li)",
+   "D_max": -2.367424576334841,
+   "D_med": -6.8353942715462415,
+   "err_max": 9.763237267057523e-05,
+   "err_med": 6.199485369506874e-12,
+   "Rf": 0.9935861291469571
+  },
+  {
+   "pair": "Si (Franta) / KF (Li)",
+   "D_max": -0.4170725387301157,
+   "D_med": -6.840606572867086,
+   "err_max": 0.0003692095611613766,
+   "err_med": 6.159350807166675e-12,
+   "Rf": 0.9924175209687122
+  },
+  {
+   "pair": "Si (Franta) / MgF2 (Li-o)",
+   "D_max": -0.38913851337655353,
+   "D_med": -6.829867222576522,
+   "err_max": 0.0011128697085109884,
+   "err_med": 1.0885570222995966e-11,
+   "Rf": 0.9919332953944126
+  }
+ ]
+}

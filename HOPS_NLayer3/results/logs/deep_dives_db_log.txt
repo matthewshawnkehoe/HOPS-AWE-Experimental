@@ -1,0 +1,88 @@
+Traceback (most recent call last):
+  File "/home/claude/HOPS_NLayer/deep_dives_db_nlayer.py", line 389, in <module>
+    STUDIES[st]()
+  File "/home/claude/HOPS_NLayer/deep_dives_db_nlayer.py", line 87, in study_ws2
+    Rm = np.array([tmm_spec(L_, T_, lams, 'TM', th_)[0] for th_ in thetas])
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/HOPS_NLayer/deep_dives_db_nlayer.py", line 87, in <listcomp>
+    Rm = np.array([tmm_spec(L_, T_, lams, 'TM', th_)[0] for th_ in thetas])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/HOPS_NLayer/deep_dives_db_nlayer.py", line 57, in tmm_spec
+    r = tmm(ns, [t * 2 * np.pi for t in th_um], 1.0 / l, a, mode, layers=True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/HOPS_NLayer/hops_nl/reference.py", line 36, in tmm
+    ref = [h[0]] + [h[l] for l in range(1, L - 1)] + [h[L - 2]]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/HOPS_NLayer/hops_nl/reference.py", line 36, in <listcomp>
+    ref = [h[0]] + [h[l] for l in range(1, L - 1)] + [h[L - 2]]
+                    ~^^^
+IndexError: list index out of range
+ws2: FAILED IndexError('list index out of range')
+### SQIB dye in a silver cavity (L = 6): ultrastrong coupling
+* exciton 1.931 eV (0.642 um); at zero detuning (PMMA spacers 75 nm) the polaritons are at 1.663 eV, 2.218 eV: **splitting 555 meV = 29 % of the exciton energy** (ultrastrong coupling regime > 10 %).
+* HOPS at the design (175 nm cavity): absorbed in SQIB (spectral max) 0.51 flat -> 0.64 at eps = 0.2; in Ag 0.04 -> 0.29.
+(41 s)
+
+### Ge2Sb2Te5 phase-change stacks (L = 5 colour pixel, L = 3 mid-IR absorber)
+* colour pixels: the reflected colour changes with crystallisation for every ITO spacer (figures/deep_dives/db_gst_switching.png); the grating (eps 0.2) adds a small hue shift.
+* mid-IR: best switching contrast for GST 1000 nm on Au: R 0.99 (amorphous) -> 0.001 (crystalline) at 2.55 um.  HOPS (0.6 um, P 1.5 um): R_min crystalline flat 0.015, eps 0.2 0.025; amorphous 0.87 / 0.39.
+| GST (nm) | lambda (um) | R amorphous | R crystalline |
+|---|---|---|---|
+| 200 | 4.70 | 0.960 | 0.307 |
+| 300 | 2.43 | 0.990 | 0.201 |
+| 400 | 2.04 | 0.945 | 0.023 |
+| 500 | 3.74 | 0.990 | 0.074 |
+| 600 | 2.11 | 0.976 | 0.017 |
+| 700 | 5.10 | 0.990 | 0.017 |
+| 800 | 5.79 | 0.990 | 0.005 |
+| 900 | 2.90 | 0.921 | 0.001 |
+| 1000 | 2.55 | 0.990 | 0.001 |
+
+(137 s)
+
+  vo2 20 C: eps0.0: Tlum 0.532 Tsol 0.505, eps0.2: Tlum 0.528 Tsol 0.504
+  vo2 30 C: eps0.0: Tlum 0.535 Tsol 0.507, eps0.2: Tlum 0.531 Tsol 0.505
+  vo2 40 C: eps0.0: Tlum 0.539 Tsol 0.509, eps0.2: Tlum 0.536 Tsol 0.507
+  vo2 50 C: eps0.0: Tlum 0.547 Tsol 0.511, eps0.2: Tlum 0.543 Tsol 0.510
+  vo2 55 C: eps0.0: Tlum 0.702 Tsol 0.600, eps0.2: Tlum 0.699 Tsol 0.598
+  vo2 60 C: eps0.0: Tlum 0.635 Tsol 0.560, eps0.2: Tlum 0.631 Tsol 0.557
+  vo2 70 C: eps0.0: Tlum 0.562 Tsol 0.494, eps0.2: Tlum 0.557 Tsol 0.490
+  vo2 80 C: eps0.0: Tlum 0.559 Tsol 0.494, eps0.2: Tlum 0.555 Tsol 0.490
+### VO2 thermochromic window through the measured temperature series (L = 5)
+* flat: T_lum 0.532 -> 0.559, T_sol 0.505 -> 0.494 (**dT_sol = 1.1 %**), NIR 0.598 -> 0.358 from 20 to 80 C.
+* grating eps = 0.2: T_lum 0.528 -> 0.555, dT_sol = 1.4 %.
+| T (C) | T_lum flat | T_sol flat | T_lum eps 0.2 | T_sol eps 0.2 |
+|---|---|---|---|---|
+| 20 | 0.532 | 0.505 | 0.528 | 0.504 |
+| 30 | 0.535 | 0.507 | 0.531 | 0.505 |
+| 40 | 0.539 | 0.509 | 0.536 | 0.507 |
+| 50 | 0.547 | 0.511 | 0.543 | 0.510 |
+| 55 | 0.702 | 0.600 | 0.699 | 0.598 |
+| 60 | 0.635 | 0.560 | 0.631 | 0.557 |
+| 70 | 0.562 | 0.494 | 0.557 | 0.490 |
+| 80 | 0.559 | 0.494 | 0.555 | 0.490 |
+
+(solar weighting: 5778 K black body; luminous: CIE y-bar)  (412 s)
+
+### Liquid-crystal (5CB) tunable silver cavity, TE (L = 4)
+* cavity dips with the director along z (n_o): 0.642 um (R 0.35), 0.797 um (R 0.80), 1.057 um (R 0.39), 1.220 um (R 0.99); along y (n_e): 0.709 um (R 0.69), 0.879 um (R 0.81), 1.104 um (R 1.00), 1.163 um (R 0.12).
+* grating eps = 0.2 adds the grating-coupled SPP/guided-mode dips: n_o 0.639, 0.788, 0.809, 1.057; n_e 0.705, 0.869, 0.890, 1.163 um.
+(66 s)
+
+### Thermoplasmonics: Kretschmann sensor with hot metals (L = 3, measured temperature pages)
+| metal | lambda_res (um) | R_min | FWHM (nm) | S (nm/RIU) | FOM |
+|---|---|---|---|---|---|
+| Au 25 C | 0.7155 | 0.010 | 56.4 | 4677 | 82.9 |
+| Au 225 C | 0.7131 | 0.000 | 60.1 | 4676 | 77.8 |
+| Au 350 C | 0.7087 | 0.018 | 62.1 | 4726 | 76.1 |
+| Ag 298 K | 0.6499 | 0.035 | 62.4 | 5739 | 91.9 |
+| Ag 404 K | 0.6402 | 0.040 | 59.4 | 5529 | 93.1 |
+| Ag 501 K | 0.6352 | 0.055 | 59.9 | 5740 | 95.8 |
+| Ag 600 K | 0.6361 | 0.053 | 59.2 | 5501 | 92.9 |
+
+(251 s)
+
+  largeL P = 5 (L = 12): matrix 300, 7.6 s / window, log10|D| -3.5/-5.1, true err 6.6e-06/1.0e-10, R_flat max 0.246
+  largeL P = 10 (L = 22): matrix 550, 11.3 s / window, log10|D| -2.5/-4.8, true err 1.2e-04/8.0e-08, R_flat max 0.499
+  largeL P = 15 (L = 32): matrix 800, 28.6 s / window, log10|D| -1.4/-4.6, true err 1.9e-03/5.0e-06, R_flat max 0.703
+Killed

@@ -1,0 +1,52 @@
+lrspp_ag10           L=3 win  8  R 0.004-0.752  true err 6.0e-08/2.1e-14  resonances(eps=0)   |R_AWE(frozen n) - R| max 1.8e+00 median 2.3e-02  (75 s)
+lrspp_ag20           L=3 win  8  R 0.000-0.975  true err 2.0e-07/7.3e-15  resonances(eps=0)   |R_AWE(frozen n) - R| max 9.1e-01 median 2.0e-02  (99 s)
+lrspp_ag40           L=3 win  8  R 0.002-0.985  true err 3.0e-08/3.1e-15  resonances(eps=0)   |R_AWE(frozen n) - R| max 7.9e-01 median 5.7e-03  (92 s)
+imi_asym_ag20        L=3 win  8  R 0.329-0.950  true err 4.8e-09/7.8e-16  resonances(eps=0)   |R_AWE(frozen n) - R| max 2.2e-01 median 1.5e-02  (88 s)
+kretschmann_au       L=3 win  6  R 0.009-0.831  true err 4.9e-09/1.3e-14  resonances(eps=0) 0.692um R=0.35, 0.717um R=0.01, 0.755um R=0.40  |R_AWE(frozen n) - R| max 4.2e-01 median 3.4e-02  (68 s)
+berreman_ito         L=3 win  6  R 0.003-0.084  true err 1.4e-12/1.4e-17  resonances(eps=0) 1.601um R=0.04  |R_AWE(frozen n) - R| max 4.8e-02 median 1.5e-03  (89 s)
+ge_on_au             L=3 win  9  R 0.000-0.949  true err 5.0e-11/2.2e-16  resonances(eps=0) 0.459um R=0.29, 0.465um R=0.29, 0.625um R=0.00  |R_AWE(frozen n) - R| max 2.4e-01 median 6.5e-03  (129 s)
+vo2_cold_sapphire    L=3 win  6  R 0.069-0.916  true err 6.1e-10/1.1e-16  resonances(eps=0) 9.188um R=0.09, 9.842um R=0.07, 9.997um R=0.07  |R_AWE(frozen n) - R| max 3.7e-01 median 8.8e-03  (110 s)
+vo2_f30_sapphire     L=3 win  6  R 0.005-0.583  true err 2.9e-12/1.1e-16  resonances(eps=0) 12.170um R=0.00  |R_AWE(frozen n) - R| max 2.1e-01 median 1.0e-02  (70 s)
+vo2_hot_sapphire     L=3 win  6  R 0.255-0.727  true err 2.3e-11/2.2e-16  resonances(eps=0) 11.365um R=0.64  |R_AWE(frozen n) - R| max 1.0e-01 median 1.8e-03  (84 s)
+kretschmann_cr       L=4 win  6  R 0.012-0.691  true err 1.1e-09/4.9e-15  resonances(eps=0) 0.692um R=0.34, 0.719um R=0.01, 0.755um R=0.28  |R_AWE(frozen n) - R| max 4.0e-01 median 3.1e-02  (100 s)
+kretschmann_ti       L=4 win  6  R 0.010-0.698  true err 1.1e-09/6.1e-15  resonances(eps=0) 0.692um R=0.34, 0.719um R=0.01, 0.755um R=0.28  |R_AWE(frozen n) - R| max 4.1e-01 median 3.0e-02  (104 s)
+biosensor_L4         L=4 win  6  R 0.006-0.870  true err 2.8e-09/1.1e-14  resonances(eps=0) 0.748um R=0.01, 0.755um R=0.01, 0.821um R=0.66  |R_AWE(frozen n) - R| max 4.2e-01 median 3.5e-02  (85 s)
+salisbury            L=4 win  9  R 0.010-0.517  true err 3.1e-11/8.3e-17  resonances(eps=0) 0.655um R=0.01  |R_AWE(frozen n) - R| max 4.6e-02 median 1.6e-03  (125 s)
+perovskite_cell      L=4 win  9  R 0.018-0.895  true err 1.7e-10/5.6e-16  resonances(eps=0) 0.570um R=0.03, 0.699um R=0.02  |R_AWE(frozen n) - R| max 4.4e-01 median 6.9e-03  (196 s)
+si_cell              L=4 win  8  R 0.003-0.995  true err 2.3e-05/6.6e-13  resonances(eps=0) 0.537um R=0.57, 0.722um R=0.84, 0.964um R=0.96  |R_AWE(frozen n) - R| max 8.9e-01 median 7.3e-03  (225 s)
+mim_filter           L=5 win 10  R 0.003-0.995  true err 2.9e-05/1.7e-13  resonances(eps=0) 0.506um R=0.06  |R_AWE(frozen n) - R| max 5.1e-01 median 3.6e-03  (194 s)
+hmm_au_tio2_L6       L=6 win  8  R 0.109-0.939  true err 2.2e-08/3.8e-14  resonances(eps=0) 0.518um R=0.13  |R_AWE(frozen n) - R| max 1.0e-01 median 2.2e-02  (227 s)
+ir_mirror_L6         L=6 win 12  R 0.028-1.000  true err 1.3e-05/3.1e-14  resonances(eps=0) 2.651um R=0.03, 4.017um R=0.75  |R_AWE(frozen n) - R| max 9.5e-01 median 1.5e-04  (352 s)
+tamm_ag              L=8 win  7  R 0.004-0.978  true err 1.2e-04/8.0e-13  resonances(eps=0) 0.684um R=0.17  |R_AWE(frozen n) - R| max 2.4e-01 median 4.1e-03  (259 s)
+tamm_au              L=8 win  7  R 0.000-0.940  true err 3.8e-05/5.4e-13  resonances(eps=0) 0.705um R=0.07  |R_AWE(frozen n) - R| max 1.8e-01 median 1.0e-02  (300 s)
+hmm_au_tio2_L8       L=8 win  8  R 0.091-0.959  true err 1.7e-06/6.6e-13  resonances(eps=0) 0.581um R=0.10  |R_AWE(frozen n) - R| max 2.2e-01 median 1.4e-02  (363 s)
+vcsel_dbr_L8         L=8 win  4  R 0.222-0.653  true err 4.9e-12/2.2e-16  resonances(eps=0)   |R_AWE(frozen n) - R| max 1.4e-02 median 5.4e-03  (140 s)
+ir_mirror_L8         L=8 win 12  R 0.001-1.000  true err 7.2e-04/2.5e-14  resonances(eps=0) 2.936um R=0.03, 6.328um R=0.02  |R_AWE(frozen n) - R| max 6.7e-01 median 3.9e-04  (424 s)
+microcavity_L9       L=9 win  7  R 0.028-0.937  true err 5.8e-08/3.3e-15  resonances(eps=0) 0.700um R=0.04  |R_AWE(frozen n) - R| max 2.7e-02 median 1.1e-03  (365 s)
+| scenario | L | stack | R range | true error max / median | AWE with frozen indices: \|dR\| max / median | energy defect log10\|D\| max / median | deepest R dips at eps = 0 (lambda um: R) | deepest R dips at eps_max | max absorptance per layer at eps_max |
+|---|---|---|---|---|---|---|---|---|---|
+| berreman_ito | 3 | air / ITO (0.03 um) / fused_silica | 0.003 - 0.084 | 1.4e-12 / 1.4e-17 | 4.8e-02 / 1.5e-03 | (absorbing) | 1.601: 0.04 | 1.590: 0.05 | 0.00, 0.37, 0.00 |
+| ge_on_au | 3 | air / Ge (0.01 um) / Au | 0.000 - 0.949 | 5.0e-11 / 2.2e-16 | 2.4e-01 / 6.5e-03 | (absorbing) | 0.459: 0.29, 0.465: 0.29, 0.625: 0.00 | 0.501: 0.21, 0.519: 0.22, 0.622: 0.00 | 0.00, 0.86, 0.23 |
+| imi_asym_ag20 | 3 | air / Ag (0.02 um) / fused_silica | 0.329 - 0.950 | 4.8e-09 / 7.8e-16 | 2.2e-01 / 1.5e-02 | (absorbing) |  | 0.532: 0.33, 0.730: 0.79, 0.787: 0.77 | 0.00, 0.07, 0.00 |
+| kretschmann_au | 3 | BK7 / Au (0.05 um) / water | 0.009 - 0.831 | 4.9e-09 / 1.3e-14 | 4.2e-01 / 3.4e-02 | (absorbing) | 0.692: 0.35, 0.717: 0.01, 0.755: 0.40 | 0.692: 0.37, 0.724: 0.05, 0.755: 0.27 | 0.00, 0.65, 0.31 |
+| lrspp_ag10 | 3 | fused_silica / Ag (0.01 um) / fused_silica | 0.004 - 0.752 | 6.0e-08 / 2.1e-14 | 1.8e+00 / 2.3e-02 | (absorbing) |  | 0.668: 0.34, 0.731: 0.04, 0.998: 0.11 | 0.00, 0.49, 0.00 |
+| lrspp_ag20 | 3 | fused_silica / Ag (0.02 um) / fused_silica | 0.000 - 0.975 | 2.0e-07 / 7.3e-15 | 9.1e-01 / 2.0e-02 | (absorbing) |  | 0.735: 0.15, 0.850: 0.09, 0.943: 0.86 | 0.00, 0.43, 0.00 |
+| lrspp_ag40 | 3 | fused_silica / Ag (0.04 um) / fused_silica | 0.002 - 0.985 | 3.0e-08 / 3.1e-15 | 7.9e-01 / 5.7e-03 | (absorbing) |  | 0.744: 0.03, 0.781: 0.02, 0.857: 0.97 | 0.00, 0.28, 0.00 |
+| vo2_cold_sapphire | 3 | air / VO2_cold (0.15 um) / sapphire_IR | 0.069 - 0.916 | 6.1e-10 / 1.1e-16 | 3.7e-01 / 8.8e-03 | (absorbing) | 9.188: 0.09, 9.842: 0.07, 9.997: 0.07 | 9.842: 0.07, 9.997: 0.07, 13.095: 0.38 | 0.00, 0.23, 0.86 |
+| vo2_f30_sapphire | 3 | air / VO2_f30 (0.15 um) / sapphire_IR | 0.005 - 0.583 | 2.9e-12 / 1.1e-16 | 2.1e-01 / 1.0e-02 | (absorbing) | 12.170: 0.00 | 12.122: 0.01 | 0.00, 0.91, 0.38 |
+| vo2_hot_sapphire | 3 | air / VO2_hot (0.15 um) / sapphire_IR | 0.255 - 0.727 | 2.3e-11 / 2.2e-16 | 1.0e-01 / 1.8e-03 | (absorbing) | 11.365: 0.64 | 11.365: 0.63 | 0.00, 0.59, 0.10 |
+| biosensor_L4 | 4 | BK7 / Au (0.05 um) / 1.45 (0.01 um) / water | 0.006 - 0.870 | 2.8e-09 / 1.1e-14 | 4.2e-01 / 3.5e-02 | (absorbing) | 0.748: 0.01, 0.755: 0.01, 0.821: 0.66 | 0.753: 0.05, 0.760: 0.05, 0.821: 0.57 | 0.00, 0.63, 0.00, 0.32 |
+| kretschmann_cr | 4 | BK7 / Cr (0.002 um) / Au (0.048 um) / water | 0.012 - 0.691 | 1.1e-09 / 4.9e-15 | 4.0e-01 / 3.1e-02 | (absorbing) | 0.692: 0.34, 0.719: 0.01, 0.755: 0.28 | 0.692: 0.34, 0.724: 0.04, 0.755: 0.18 | 0.00, 0.23, 0.59, 0.28 |
+| kretschmann_ti | 4 | BK7 / Ti (0.002 um) / Au (0.048 um) / water | 0.010 - 0.698 | 1.1e-09 / 6.1e-15 | 4.1e-01 / 3.0e-02 | (absorbing) | 0.692: 0.34, 0.719: 0.01, 0.755: 0.28 | 0.692: 0.34, 0.724: 0.04, 0.755: 0.18 | 0.00, 0.19, 0.58, 0.28 |
+| perovskite_cell | 4 | air / ITO (0.08 um) / MAPbI3 (0.3 um) / Ag | 0.018 - 0.895 | 1.7e-10 / 5.6e-16 | 4.4e-01 / 6.9e-03 | (absorbing) | 0.570: 0.03, 0.699: 0.02 | 0.567: 0.03, 0.696: 0.02, 0.858: 0.34 | 0.00, 0.26, 0.95, 0.03 |
+| salisbury | 4 | air / Cr (0.006 um) / SiO2 (0.1 um) / Al | 0.010 - 0.517 | 3.1e-11 / 8.3e-17 | 4.6e-02 / 1.6e-03 | (absorbing) | 0.655: 0.01 | 0.527: 0.07, 0.660: 0.01 | 0.00, 0.94, 0.00, 0.07 |
+| si_cell | 4 | air / Si3N4 (0.07 um) / Si (0.3 um) / Ag | 0.003 - 0.995 | 2.3e-05 / 6.6e-13 | 8.9e-01 / 7.3e-03 | (absorbing) | 0.537: 0.57, 0.722: 0.84, 0.964: 0.96 | 0.598: 0.17, 0.620: 0.13, 0.725: 0.06 | 0.00, 0.00, 0.83, 0.26 |
+| mim_filter | 5 | air / Ag (0.03 um) / SiO2 (0.12 um) / Ag (0.03 um) / BK7 | 0.003 - 0.995 | 2.9e-05 / 1.7e-13 | 5.1e-01 / 3.6e-03 | (absorbing) | 0.506: 0.06 | 0.501: 0.07, 0.541: 0.00, 0.909: 0.95 | 0.00, 0.46, 0.00, 0.13, 0.71 |
+| hmm_au_tio2_L6 | 6 | air / Au (0.02 um) / TiO2 (0.04 um) / Au (0.02 um) / TiO2 (0.04 um) / BK7 | 0.109 - 0.939 | 2.2e-08 / 3.8e-14 | 1.0e-01 / 2.2e-02 | (absorbing) | 0.518: 0.13 | 0.514: 0.11, 0.992: 0.93 | 0.00, 0.38, 0.00, 0.11, 0.00, 0.48 |
+| ir_mirror_L6 | 6 | air / Ge_IR (0.251 um) / ZnS (0.444 um) / Ge_IR (0.251 um) / ZnS (0.444 um) / Ca | 0.028 - 1.000 | 1.3e-05 / 3.1e-14 | 9.5e-01 / 1.5e-04 | -2.8 / -12.5 | 2.651: 0.03, 4.017: 0.75 | 2.623: 0.42, 2.790: 0.37, 5.937: 0.03 | 0.00, 0.00, 0.00, 0.00, 0.00, 0.00 |
+| hmm_au_tio2_L8 | 8 | air / Au (0.02 um) / TiO2 (0.04 um) / Au (0.02 um) / TiO2 (0.04 um) / Au (0.02 u | 0.091 - 0.959 | 1.7e-06 / 6.6e-13 | 2.2e-01 / 1.4e-02 | (absorbing) | 0.581: 0.10 | 0.579: 0.09, 0.968: 0.95 | 0.00, 0.23, 0.00, 0.22, 0.00, 0.07, 0.00, 0.45 |
+| ir_mirror_L8 | 8 | air / Ge_IR (0.251 um) / ZnS (0.444 um) / Ge_IR (0.251 um) / ZnS (0.444 um) / Ge | 0.001 - 1.000 | 7.2e-04 / 2.5e-14 | 6.7e-01 / 3.9e-04 | -3.0 / -12.5 | 2.936: 0.03, 6.328: 0.02 | 2.916: 0.12, 5.145: 0.11, 6.279: 0.01 | 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00 |
+| tamm_ag | 8 | air / Ag (0.03 um) / TiO2 (0.0412 um) / SiO2 (0.12 um) / TiO2 (0.0686 um) / SiO2 | 0.004 - 0.978 | 1.2e-04 / 8.0e-13 | 2.4e-01 / 4.1e-03 | (absorbing) | 0.684: 0.17 | 0.574: 0.86, 0.673: 0.24, 0.700: 0.50 | 0.00, 0.25, 0.00, 0.00, 0.00, 0.00, 0.00, 0.52 |
+| tamm_au | 8 | air / Au (0.03 um) / TiO2 (0.0412 um) / SiO2 (0.12 um) / TiO2 (0.0686 um) / SiO2 | 0.000 - 0.940 | 3.8e-05 / 5.4e-13 | 1.8e-01 / 1.0e-02 | (absorbing) | 0.705: 0.07 | 0.589: 0.80, 0.686: 0.01 | 0.00, 0.48, 0.00, 0.00, 0.00, 0.00, 0.00, 0.55 |
+| vcsel_dbr_L8 | 8 | air / GaAs (0.0701 um) / 2.95 (0.0831 um) / GaAs (0.0701 um) / 2.95 (0.0831 um)  | 0.222 - 0.653 | 4.9e-12 / 2.2e-16 | 1.4e-02 / 5.4e-03 | (absorbing) |  |  | 0.00, 0.06, 0.00, 0.05, 0.00, 0.05, 0.00, 0.75 |
+| microcavity_L9 | 9 | air / TiO2 (0.0686 um) / SiO2 (0.12 um) / TiO2 (0.0686 um) / SiO2 (0.241 um) / T | 0.028 - 0.937 | 5.8e-08 / 3.3e-15 | 2.7e-02 / 1.1e-03 | -7.0 / -8.7 | 0.700: 0.04 | 0.700: 0.03, 0.961: 0.69 | 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.97 |
