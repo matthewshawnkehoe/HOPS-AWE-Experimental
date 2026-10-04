@@ -1,0 +1,13 @@
+gmr: 20 windows in 12 s
+saved /home/claude/HOPS_NLayer/figures/movies/movie_gmr.mp4 (143 s)
+silver_film: 7 windows in 4 s
+saved /home/claude/HOPS_NLayer/figures/movies/movie_silver_film.mp4 (100 s)
+mim: 17 windows in 12 s
+saved /home/claude/HOPS_NLayer/figures/movies/movie_mim.mp4 (141 s)
+bragg: 6 windows in 8 s
+saved /home/claude/HOPS_NLayer/figures/movies/movie_bragg.mp4 (130 s)
+hmm: 8 windows in 11 s
+saved /home/claude/HOPS_NLayer/figures/movies/movie_hmm.mp4 (139 s)
+film_eps: 4 windows in 2 s
+saved /home/claude/HOPS_NLayer/figures/movies/movie_film_eps.mp4 (88 s)
+DONE

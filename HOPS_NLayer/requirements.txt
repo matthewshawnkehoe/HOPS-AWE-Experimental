@@ -1,0 +1,7 @@
+# HOPS_NLayer needs the HOPS_Python folder as a SIBLING directory (or set HOPS_PYTHON=/path/to/HOPS_Python)
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+pyyaml>=6            # refractiveindex.info reader used by hops.materials
+imageio-ffmpeg>=0.4  # ffmpeg binary for the movies (refl_movie_nlayer.py)
+pytest>=7            # optional: python -m pytest tests -q

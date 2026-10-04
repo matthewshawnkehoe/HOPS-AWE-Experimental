@@ -1,0 +1,20 @@
+{
+ "scenario": "gmr_filter",
+ "L": 3,
+ "stack": "air | TiO2 (0.12 um) | fused_silica",
+ "windows": 20,
+ "lossless": true,
+ "summation": "Pade",
+ "R_min": 0.032492379755422934,
+ "R_max": 0.927233448396841,
+ "RR_min": 0.600058016732943,
+ "RR_max": 15.128510857027058,
+ "frac_nonphysical": 0.0,
+ "t_solve": 83.54465675354004,
+ "size": 75,
+ "wall": 60.62055325508118,
+ "D_max": -0.8591061129078533,
+ "D_median": -12.950698603954093,
+ "err_max": 2.4261816374271383e-06,
+ "err_median": 9.700573677662305e-14
+}
